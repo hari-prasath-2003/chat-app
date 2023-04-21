@@ -1,0 +1,13 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas: "contact-list  chat-room";
+  grid-template-columns: 1fr 3fr;
+}
+
+@media (width<1150px) {
+  .app {
+    grid-template-columns: 1fr 2fr;
+  }
+}

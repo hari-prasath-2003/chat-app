@@ -1,0 +1,15 @@
+.contactList {
+    grid-area: contact-list;
+    height: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.cardContainer {
+    margin-top: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.search {
+    margin: 0px 20px !important;
+}
